@@ -1,0 +1,11 @@
+# Preface {.unnumbered}
+
+This is a Quarto book.
+
+To learn more about Quarto books visit <https://quarto.org/docs/books>.
+
+```{r}
+1 + 1
+```
+
+I want to go to the store and get myself some bananas and apple's, after that I'll go to the bakery to get some nice bread. What else do you think I should get: please suggest something for me. I can't think of something what should I get: maybe some milk? I don't know. Or some other dairy product like yogurt? Maybe I should get some eggs too. What do you think?
