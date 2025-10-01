@@ -1,6 +1,16 @@
+# RStudio files
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 
-/.quarto/
+# Quarto cache/build directories
+.quarto/
+*_cache/
+*.log
+
+# Book output (HTML, PDF, etc.)
+_book/
+_site/
+*.pdf
+*.html
