@@ -2,9 +2,10 @@ project:
   type: book
 
 book:
-  title: "Quarto-Book"
-  author: "Norah Jones"
-  date: "9/29/2025"
+  title: "AI in Education: Transforming Learning in the Digital Age"
+  subtitle: "Exploring the Impact, Opportunities, and Challenges of Artificial Intelligence in Modern Education"
+  author: "Student Jasper Meijerink"
+  date: "2025"
   chapters:
     - index.qmd
     - intro.qmd
