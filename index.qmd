@@ -12,13 +12,7 @@ This book serves as both a guide and a critical examination of AI's role in educ
 
 ## What You'll Find in These Pages
 
-We'll explore:
-
-- **The Current State**: How AI is already transforming classrooms and institutions
-- **Personalized Learning**: The promise and reality of AI-driven individualized education
-- **Teacher-AI Collaboration**: How educators can work effectively alongside AI systems
-- **Ethical Considerations**: The critical issues of privacy, bias, and equity in AI education
-- **Future Horizons**: Emerging trends and what they mean for learners and educators
+We'll explore the current state of AI across classrooms and institutions, tracing how policy choices, market forces, and research breakthroughs are rewriting daily practice. We will dive deeply into personalized learning to examine the promise—and the real-world reality—of AI-driven individualisation. Along the way, we consider how teachers collaborate with AI systems, detailing the craft of weaving human judgment with algorithmic insight. We devote substantial attention to ethical considerations, especially the intertwined issues of privacy, bias, and equity. Finally, we scan the horizon to understand the trends that will shape the next generation of learners and educators.
 
 ## A Personal Journey
 

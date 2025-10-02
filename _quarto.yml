@@ -6,9 +6,21 @@ book:
   subtitle: "Exploring the Impact, Opportunities, and Challenges of Artificial Intelligence in Modern Education"
   author: "Student Jasper Meijerink"
   date: "2025"
+  cover-image: cover.png
+  favicon: cover.png
+  page-navigation: true
+  downloads: [pdf]
   chapters:
     - index.qmd
     - intro.qmd
+    - current-state.qmd
+    - personalized-learning.qmd
+    - assessment-feedback.qmd
+    - teacher-collaboration.qmd
+    - ethics-bias.qmd
+    - future-trends.qmd
+    - case-studies.qmd
+    - policy-implementation.qmd
     - summary.qmd
     - references.qmd
 
@@ -19,8 +31,27 @@ format:
     theme:
       - cosmo
       - brand
+    toc: true
+    toc-depth: 3
+    link-external-newwindow: true
+    smooth-scroll: true
+    code-copy: true
+    number-sections: true
+    title-block-banner: true
   pdf:
     documentclass: scrreprt
+    geometry: [margin=1in]
+    fontsize: 11pt
+    linestretch: 1.2
+    number-sections: true
 
 editor: visual
+
+lang: en
+citeproc: true
+link-citations: true
+metadata-files: []
+page-footer:
+  left: "© 2025 Student Jasper Meijerink"
+  right: "AI in Education"
 

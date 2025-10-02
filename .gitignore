@@ -16,3 +16,5 @@ _site/
 *.html
 
 /.quarto/
+
+**/*.quarto_ipynb

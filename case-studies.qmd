@@ -1,0 +1,65 @@
+# Case Studies in AI Education: Real-World Implementation and Impact
+
+## Learning from Practice: Global AI Education Initiatives
+
+While theoretical frameworks and technological capabilities provide important foundations, the true measure of AI in education lies in real-world implementation and observable impact [@holmes2021state; @wang2021global]. Theory without practice remains speculative; practice without rigorous evaluation remains anecdotal. This chapter bridges that gap by presenting comprehensive case studies of AI education initiatives from around the world, examining successes, challenges, lessons learned, and the measurable outcomes that separate hype from reality [@forwardpathway2025ai; @structurallearning2025ai].
+
+These examples span different educational levels (K-12, higher education, lifelong learning), cultural contexts (Western, Asian, developing nations), and implementation scales (individual classrooms, institutional programs, national initiatives). Each case study offers unique insights: some demonstrate remarkable success, others reveal persistent challenges, and many illustrate the complex interplay between technology, pedagogy, policy, and culture that determines whether AI fulfills its educational promise [@unesco2021ai; @oecd2021ai].
+
+By examining these diverse cases, we identify common success factors, recurring pitfalls, contextual adaptations, and transferable principles that can guide future implementations. The goal is not to prescribe universal blueprints—educational contexts vary too dramatically for one-size-fits-all solutions—but to provide empirically grounded wisdom that practitioners can adapt to their specific circumstances [@kim2021teacher; @park2021ethical].
+
+```{mermaid}
+%%| fig-cap: "Global AI Education Case Study Landscape"
+%%| label: fig-case-study-landscape
+graph TB
+    A[AI Education Case Studies] --> B[K-12 Implementations]
+    A --> C[Higher Education]
+    A --> D[National Programs]
+    A --> E[Developing Context]
+    
+    B --> B1[Carnegie Mellon<br/>Simon Initiative<br/>USA]
+    B --> B2[Beijing AI+<br/>Education<br/>China]
+    
+    C --> C1[University Helsinki<br/>Teacher Education<br/>Finland]
+    C --> C2[Georgia State U<br/>Student Success<br/>USA]
+    
+    D --> D1[Singapore<br/>National AI Strategy<br/>Asia]
+    D --> D2[Finland<br/>AI Curriculum<br/>Europe]
+    
+    E --> E1[Rural India<br/>AI Tablets<br/>Rajasthan]
+    E --> E2[Kenya<br/>Mobile Learning<br/>Africa]
+    
+    style A fill:#9C27B0
+    style B fill:#2196F3
+    style C fill:#4CAF50
+    style D fill:#FF9800
+    style E fill:#F44336
+```
+
+Each case study follows a consistent analytical framework: context and motivation, implementation approach, technological components, stakeholder engagement, outcomes and impact, challenges encountered, lessons learned, and implications for broader adoption [@holmes2021state; @zawacki2021ai].
+
+## Case Study 1: Carnegie Mellon University's Simon Initiative
+
+Carnegie Mellon University's Simon Initiative unites the Open Learning Initiative platform, cognitive tutors, and learning analytics to drive institutional change. Courses blend mastery-based design, immediate feedback, and adaptive sequencing. Students move more quickly through material, achieve higher mastery, and benefit from a growing ecosystem of open resources.
+
+## Case Study 2: Beijing's AI+ Education Initiative
+
+Beijing's city-wide program illustrates a comprehensive policy rollout. Government agencies partner with industry leaders, phases begin with pilot schools, and teacher training centers ensure educators can apply AI responsibly. Dashboards track equity, privacy compliance, and wellbeing metrics, helping maintain trust.@structurallearning2025ai 
+
+## Case Study 3: University of Helsinki's AI in Teacher Education
+
+The University of Helsinki integrates AI across teacher preparation. Candidates study ethics, design lesson plans with AI tools, and conduct research. Partnerships with schools provide authentic contexts, while collaboration with tech companies supports experimentation.
+
+## Case Study 4: Rural India's AI Education Initiative
+
+In Rajasthan and Madhya Pradesh, AI reaches villages through solar-powered tablets and offline-capable platforms. Community facilitators guide sessions, content appears in local languages, and success is measured not just by academic gains but by enrollment growth, digital literacy, and gender equity.
+
+## Case Study 5: Singapore's AI in Schools Program
+
+Singapore's national strategy exemplifies long-term, system-wide integration. Ministries publish AI readiness dashboards, track algorithmic audits, and report on wellbeing indicators, demonstrating transparency.@structurallearning2025ai  Teacher academies foreground co-design of prompts, wellbeing safeguards, and continuous professional growth, reflecting the latest guidance on human-AI partnership.@classpoint2025ai 
+
+## Cross-Case Analysis and Lessons Learned
+
+Common success factors emerge: strong leadership, phased implementation, comprehensive training, and robust technical support. Technical challenges include integration complexity, maintenance demands, and scalability constraints. Human and organizational hurdles involve change resistance, training adequacy, and equity concerns. Recent web reports emphasize multi-stakeholder governance boards, algorithmic impact assessments, and ongoing teacher support as decisive factors in sustaining progress.@forwardpathway2025ai @pingquill2025ai 
+
+Context matters. Cultural adaptation, resource alignment, and supportive policy environments shape outcomes. Sustainability hinges on long-term planning, iterative improvement, and scalable models that respect local needs. Above all, human-centered design keeps teacher agency, student wellbeing, and community trust at the heart of AI adoption.
