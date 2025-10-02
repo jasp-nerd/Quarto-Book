@@ -91,6 +91,9 @@ div.csl-indent {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -249,7 +252,49 @@ div.csl-indent {
 
 <section id="learning-from-practice-global-ai-education-initiatives" class="level2" data-number="8.1">
 <h2 data-number="8.1" class="anchored" data-anchor-id="learning-from-practice-global-ai-education-initiatives"><span class="header-section-number">8.1</span> Learning from Practice: Global AI Education Initiatives</h2>
-<p>While theoretical frameworks and technological capabilities provide important foundations, the true measure of AI in education lies in real-world implementation and observable impact. This chapter presents comprehensive case studies of AI education initiatives from around the world, examining successes, challenges, and lessons learned. These examples span different educational levels, cultural contexts, and implementation scales, offering valuable insights for future AI education deployment.</p>
+<p>While theoretical frameworks and technological capabilities provide important foundations, the true measure of AI in education lies in real-world implementation and observable impact <span class="citation" data-cites="holmes2021state wang2021global">(<a href="references.html#ref-holmes2021state" role="doc-biblioref">Holmes and Tuomi 2021</a>; <a href="references.html#ref-wang2021global" role="doc-biblioref">Wang, Li, and Zhang 2021</a>)</span>. Theory without practice remains speculative; practice without rigorous evaluation remains anecdotal. This chapter bridges that gap by presenting comprehensive case studies of AI education initiatives from around the world, examining successes, challenges, lessons learned, and the measurable outcomes that separate hype from reality <span class="citation" data-cites="forwardpathway2025ai structurallearning2025ai">(<a href="references.html#ref-forwardpathway2025ai" role="doc-biblioref">Forward Pathway 2025</a>; <a href="references.html#ref-structurallearning2025ai" role="doc-biblioref">Structural Learning 2025</a>)</span>.</p>
+<p>These examples span different educational levels (K-12, higher education, lifelong learning), cultural contexts (Western, Asian, developing nations), and implementation scales (individual classrooms, institutional programs, national initiatives). Each case study offers unique insights: some demonstrate remarkable success, others reveal persistent challenges, and many illustrate the complex interplay between technology, pedagogy, policy, and culture that determines whether AI fulfills its educational promise <span class="citation" data-cites="unesco2021ai oecd2021ai">(<a href="references.html#ref-unesco2021ai" role="doc-biblioref">UNESCO 2021</a>; <a href="references.html#ref-oecd2021ai" role="doc-biblioref">OECD 2021</a>)</span>.</p>
+<p>By examining these diverse cases, we identify common success factors, recurring pitfalls, contextual adaptations, and transferable principles that can guide future implementations. The goal is not to prescribe universal blueprints—educational contexts vary too dramatically for one-size-fits-all solutions—but to provide empirically grounded wisdom that practitioners can adapt to their specific circumstances <span class="citation" data-cites="kim2021teacher park2021ethical">(<a href="references.html#ref-kim2021teacher" role="doc-biblioref">Kim, Lee, and Cho 2021</a>; <a href="references.html#ref-park2021ethical" role="doc-biblioref">Park and Lee 2021</a>)</span>.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-case-study-landscape" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-case-study-landscape-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-case-study-landscape">graph TB
+    A[AI Education Case Studies] --&gt; B[K-12 Implementations]
+    A --&gt; C[Higher Education]
+    A --&gt; D[National Programs]
+    A --&gt; E[Developing Context]
+    
+    B --&gt; B1[Carnegie Mellon&lt;br/&gt;Simon Initiative&lt;br/&gt;USA]
+    B --&gt; B2[Beijing AI+&lt;br/&gt;Education&lt;br/&gt;China]
+    
+    C --&gt; C1[University Helsinki&lt;br/&gt;Teacher Education&lt;br/&gt;Finland]
+    C --&gt; C2[Georgia State U&lt;br/&gt;Student Success&lt;br/&gt;USA]
+    
+    D --&gt; D1[Singapore&lt;br/&gt;National AI Strategy&lt;br/&gt;Asia]
+    D --&gt; D2[Finland&lt;br/&gt;AI Curriculum&lt;br/&gt;Europe]
+    
+    E --&gt; E1[Rural India&lt;br/&gt;AI Tablets&lt;br/&gt;Rajasthan]
+    E --&gt; E2[Kenya&lt;br/&gt;Mobile Learning&lt;br/&gt;Africa]
+    
+    style A fill:#9C27B0
+    style B fill:#2196F3
+    style C fill:#4CAF50
+    style D fill:#FF9800
+    style E fill:#F44336
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-case-study-landscape-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8.1: Global AI Education Case Study Landscape
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Each case study follows a consistent analytical framework: context and motivation, implementation approach, technological components, stakeholder engagement, outcomes and impact, challenges encountered, lessons learned, and implications for broader adoption <span class="citation" data-cites="holmes2021state zawacki2021ai">(<a href="references.html#ref-holmes2021state" role="doc-biblioref">Holmes and Tuomi 2021</a>; <a href="references.html#ref-zawacki2021ai" role="doc-biblioref">Zawacki-Richter, Bond, and Marín 2021</a>)</span>.</p>
 </section>
 <section id="case-study-1-carnegie-mellon-universitys-simon-initiative" class="level2" data-number="8.2">
 <h2 data-number="8.2" class="anchored" data-anchor-id="case-study-1-carnegie-mellon-universitys-simon-initiative"><span class="header-section-number">8.2</span> Case Study 1: Carnegie Mellon University’s Simon Initiative</h2>
@@ -278,8 +323,35 @@ div.csl-indent {
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-forwardpathway2025ai" class="csl-entry" role="listitem">
+Forward Pathway. 2025. <span>“The Application and Challenges of AI in Education.”</span> 2025. <a href="https://www.forwardpathway.us/the-application-and-challenges-of-ai-in-education">https://www.forwardpathway.us/the-application-and-challenges-of-ai-in-education</a>.
+</div>
+<div id="ref-holmes2021state" class="csl-entry" role="listitem">
+Holmes, Wayne, and Ilkka Tuomi. 2021. <span>“State of the Art and Practice in AI in Education.”</span> <em>European Journal of Education</em> 56 (4): 551–63.
+</div>
+<div id="ref-kim2021teacher" class="csl-entry" role="listitem">
+Kim, Jiyoung, Hyeoncheol Lee, and Young Hoan Cho. 2021. <span>“Teacher Perspectives on AI in Education: A Systematic Review.”</span> <em>Computers &amp; Education</em> 169: 104207.
+</div>
+<div id="ref-oecd2021ai" class="csl-entry" role="listitem">
+OECD. 2021. <span>“AI and the Future of Skills, Volume 1: Capabilities and Assessments.”</span>
+</div>
+<div id="ref-park2021ethical" class="csl-entry" role="listitem">
+Park, Yeonjeong, and Hyeoncheol Lee. 2021. <span>“Ethical Considerations in AI Education: A Framework for Responsible Implementation.”</span> <em>Educational Technology Research and Development</em> 69 (3): 1639–59.
+</div>
 <div id="ref-pingquill2025ai" class="csl-entry" role="listitem">
 Pingquill Insights. 2025. <span>“AI in Education: Applications, Challenges, and Opportunities.”</span> 2025. <a href="https://pingquill.com/artificial-intelligence/ai-education-applications-challenges-and-opportunities/">https://pingquill.com/artificial-intelligence/ai-education-applications-challenges-and-opportunities/</a>.
+</div>
+<div id="ref-structurallearning2025ai" class="csl-entry" role="listitem">
+Structural Learning. 2025. <span>“AI in Modern Education: Challenges and Opportunities.”</span> 2025. <a href="https://www.structural-learning.com/post/ai-in-modern-education-challenges-and-opportunities">https://www.structural-learning.com/post/ai-in-modern-education-challenges-and-opportunities</a>.
+</div>
+<div id="ref-unesco2021ai" class="csl-entry" role="listitem">
+UNESCO. 2021. <span>“AI and Education: Guidance for Policy-Makers.”</span>
+</div>
+<div id="ref-wang2021global" class="csl-entry" role="listitem">
+Wang, Xiaoqing, Xiaoming Li, and Yu Zhang. 2021. <span>“Global Perspectives on AI in Education: A Comparative Analysis.”</span> <em>International Journal of Artificial Intelligence in Education</em> 31 (4): 567–90.
+</div>
+<div id="ref-zawacki2021ai" class="csl-entry" role="listitem">
+Zawacki-Richter, Olaf, Melissa Bond, and Victoria I Marín. 2021. <span>“AI in Education: Opportunities and Challenges for Teaching and Learning.”</span> <em>Computers in Human Behavior Reports</em> 4: 100101.
 </div>
 </div>
 </section>

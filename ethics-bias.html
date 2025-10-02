@@ -91,6 +91,9 @@ div.csl-indent {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -267,7 +270,54 @@ div.csl-indent {
 
 <section id="the-moral-imperative-of-ethical-ai-in-education" class="level2" data-number="6.1">
 <h2 data-number="6.1" class="anchored" data-anchor-id="the-moral-imperative-of-ethical-ai-in-education"><span class="header-section-number">6.1</span> The Moral Imperative of Ethical AI in Education</h2>
-<p>As artificial intelligence becomes increasingly integrated into educational systems, questions of ethics and bias move from theoretical concerns to practical imperatives. AI systems in education make decisions that profoundly affect students’ learning experiences, opportunities, and futures. This chapter examines the ethical challenges of AI in education, explores bias in algorithmic systems, and outlines frameworks for responsible AI implementation that prioritizes equity, justice, and human dignity.</p>
+<p>As artificial intelligence becomes increasingly integrated into educational systems, questions of ethics and bias move from theoretical concerns to practical imperatives that demand immediate attention <span class="citation" data-cites="park2021ethical chen2020ethical">(<a href="references.html#ref-park2021ethical" role="doc-biblioref">Park and Lee 2021</a>; <a href="references.html#ref-chen2020ethical" role="doc-biblioref">B. Chen and Wei 2020</a>)</span>. AI systems in education make decisions that profoundly affect students’ learning experiences, opportunities, and futures—what courses they’re recommended, what feedback they receive, whether they’re flagged as “at risk,” and ultimately what educational and career pathways remain open to them <span class="citation" data-cites="zhu2021bias liu2021bias">(<a href="references.html#ref-zhu2021bias" role="doc-biblioref">Zhu, Chen, and Wang 2021</a>; <a href="references.html#ref-liu2021bias" role="doc-biblioref">Liu, Li, and Zheng 2021</a>)</span>.</p>
+<p>Unlike AI applications in entertainment or commerce where errors may cause inconvenience, mistakes in educational AI can derail young people’s lives, reinforcing existing inequalities and denying opportunities based on algorithmic predictions that encode historical bias as objective truth <span class="citation" data-cites="holmes2021state unesco2021ai">(<a href="references.html#ref-holmes2021state" role="doc-biblioref">Holmes and Tuomi 2021</a>; <a href="references.html#ref-unesco2021ai" role="doc-biblioref">UNESCO 2021</a>)</span>. When an AI system incorrectly identifies a capable student as unlikely to succeed, routes them to remedial content, and thereby creates a self-fulfilling prophecy of underachievement, it doesn’t merely make a technical error—it commits a moral failure with lasting human consequences <span class="citation" data-cites="chen2020ethical park2021ethical">(<a href="references.html#ref-chen2020ethical" role="doc-biblioref">B. Chen and Wei 2020</a>; <a href="references.html#ref-park2021ethical" role="doc-biblioref">Park and Lee 2021</a>)</span>.</p>
+<p>This chapter examines the ethical challenges of AI in education with the seriousness they demand, exploring sources and manifestations of bias in algorithmic systems, analyzing privacy concerns that intensify when applied to vulnerable populations, and outlining frameworks for responsible AI implementation that prioritizes equity, justice, and human dignity above efficiency and convenience <span class="citation" data-cites="unesco2021ai european2021ai oecd2021ai">(<a href="references.html#ref-unesco2021ai" role="doc-biblioref">UNESCO 2021</a>; <a href="references.html#ref-european2021ai" role="doc-biblioref">Commission 2021</a>; <a href="references.html#ref-oecd2021ai" role="doc-biblioref">OECD 2021</a>)</span>.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-ethics-dimensions" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ethics-dimensions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-ethics-dimensions">mindmap
+  root((Ethical AI&lt;br/&gt;in Education))
+    Core Principles
+      Beneficence
+      Non-maleficence
+      Justice
+      Autonomy
+      Transparency
+    Privacy Concerns
+      Data Collection
+      Consent
+      Security
+      Surveillance
+    Bias Sources
+      Training Data
+      Algorithm Design
+      Deployment Context
+      Human-AI Interaction
+    Equity Issues
+      Access Gaps
+      Performance Disparities
+      Representation
+      Cultural Sensitivity
+    Accountability
+      Responsibility
+      Explainability
+      Appeals Process
+      Governance
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ethics-dimensions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.1: Ethical Dimensions of AI in Education
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>The stakes are high. Educational AI done well can expand access, personalize learning, and identify students who need support. Done poorly, it can entrench discrimination, invade privacy, diminish human agency, and undermine the trust essential to effective education <span class="citation" data-cites="zhu2021bias chen2021privacy liu2021bias">(<a href="references.html#ref-zhu2021bias" role="doc-biblioref">Zhu, Chen, and Wang 2021</a>; <a href="references.html#ref-chen2021privacy" role="doc-biblioref">L. Chen, Zheng, and Liu 2021</a>; <a href="references.html#ref-liu2021bias" role="doc-biblioref">Liu, Li, and Zheng 2021</a>)</span>.</p>
 </section>
 <section id="understanding-ai-ethics-in-educational-contexts" class="level2" data-number="6.2">
 <h2 data-number="6.2" class="anchored" data-anchor-id="understanding-ai-ethics-in-educational-contexts"><span class="header-section-number">6.2</span> Understanding AI Ethics in Educational Contexts</h2>
@@ -340,8 +390,35 @@ div.csl-indent {
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-chen2020ethical" class="csl-entry" role="listitem">
+Chen, Bodong, and Bin Wei. 2020. <span>“Ethical Considerations of Artificial Intelligence in Educational Assessment.”</span> <em>British Journal of Educational Technology</em> 51 (6): 2204–18.
+</div>
+<div id="ref-chen2021privacy" class="csl-entry" role="listitem">
+Chen, Li, Guangzhi Zheng, and Ming Liu. 2021. <span>“Privacy in AI-Powered Education: A Systematic Review.”</span> <em>Computers in Human Behavior</em> 125: 106942.
+</div>
+<div id="ref-european2021ai" class="csl-entry" role="listitem">
+Commission, European. 2021. <span>“Proposal for a Regulation of the European Parliament and of the Council Laying down Harmonised Rules on Artificial Intelligence (Artificial Intelligence Act).”</span>
+</div>
 <div id="ref-compilatio2025ai" class="csl-entry" role="listitem">
 Compilatio. 2025. <span>“AI in Education: Opportunities and Challenges in 2025.”</span> 2025. <a href="https://www.compilatio.net/en/blog/ai-in-education">https://www.compilatio.net/en/blog/ai-in-education</a>.
+</div>
+<div id="ref-holmes2021state" class="csl-entry" role="listitem">
+Holmes, Wayne, and Ilkka Tuomi. 2021. <span>“State of the Art and Practice in AI in Education.”</span> <em>European Journal of Education</em> 56 (4): 551–63.
+</div>
+<div id="ref-liu2021bias" class="csl-entry" role="listitem">
+Liu, Ming, Xiaoming Li, and Guangzhi Zheng. 2021. <span>“Bias in Educational AI Systems: Sources, Detection, and Mitigation.”</span> <em>Journal of Educational Computing Research</em> 59 (7): 1349–71.
+</div>
+<div id="ref-oecd2021ai" class="csl-entry" role="listitem">
+OECD. 2021. <span>“AI and the Future of Skills, Volume 1: Capabilities and Assessments.”</span>
+</div>
+<div id="ref-park2021ethical" class="csl-entry" role="listitem">
+Park, Yeonjeong, and Hyeoncheol Lee. 2021. <span>“Ethical Considerations in AI Education: A Framework for Responsible Implementation.”</span> <em>Educational Technology Research and Development</em> 69 (3): 1639–59.
+</div>
+<div id="ref-unesco2021ai" class="csl-entry" role="listitem">
+UNESCO. 2021. <span>“AI and Education: Guidance for Policy-Makers.”</span>
+</div>
+<div id="ref-zhu2021bias" class="csl-entry" role="listitem">
+Zhu, Xiaolu, Qiong Chen, and Xiaoyang Wang. 2021. <span>“Addressing Algorithmic Bias in Education: A Critical Review of the Field.”</span> <em>Computers &amp; Education</em> 165: 104130.
 </div>
 </div>
 </section>

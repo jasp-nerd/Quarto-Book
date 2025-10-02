@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -71,6 +91,9 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -261,7 +284,53 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="the-human-ai-partnership-in-education" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="the-human-ai-partnership-in-education"><span class="header-section-number">5.1</span> The Human-AI Partnership in Education</h2>
-<p>The most successful implementations of AI in education are not those that seek to replace teachers, but those that augment human capabilities and create powerful partnerships between educators and intelligent systems. This chapter explores how teachers and AI can collaborate effectively, combining human judgment, empathy, and creativity with AI’s analytical power, scalability, and precision.</p>
+<p>The most successful implementations of AI in education are not those that seek to replace teachers, but those that augment human capabilities and create powerful partnerships between educators and intelligent systems <span class="citation" data-cites="kim2021teacher dufour2015professional">(<a href="references.html#ref-kim2021teacher" role="doc-biblioref">Kim, Lee, and Cho 2021</a>; <a href="references.html#ref-dufour2015professional" role="doc-biblioref">Dufour and Dufour 2015</a>)</span>. This fundamental insight—that AI serves teachers best when it enhances rather than substitutes for human expertise—runs counter to dystopian narratives of automation replacing human labor, yet it aligns with both research evidence and practical experience from thousands of schools worldwide <span class="citation" data-cites="holmes2021state fullan2016coherence">(<a href="references.html#ref-holmes2021state" role="doc-biblioref">Holmes and Tuomi 2021</a>; <a href="references.html#ref-fullan2016coherence" role="doc-biblioref">Fullan and Quinn 2016</a>)</span>.</p>
+<p>Teachers possess irreplaceable capabilities that AI cannot replicate: the ability to inspire curiosity, model intellectual passion, provide emotional support during struggles, recognize when a student needs encouragement versus challenge, facilitate complex social dynamics, and make nuanced ethical judgments. AI systems, conversely, excel at processing vast amounts of data rapidly, identifying patterns invisible to human observation, maintaining consistent attention across hundreds of students, and performing routine tasks without fatigue <span class="citation" data-cites="hargreaves2017uplifting park2021ethical">(<a href="references.html#ref-hargreaves2017uplifting" role="doc-biblioref">Hargreaves, Boyle, and Harris 2017</a>; <a href="references.html#ref-park2021ethical" role="doc-biblioref">Park and Lee 2021</a>)</span>.</p>
+<p>The question, then, is not “Will AI replace teachers?” but rather “How can AI and human educators collaborate most effectively to create learning experiences that neither could provide alone?” This chapter explores that question through examination of complementary capabilities, collaborative models, practical tools, professional development needs, and real-world implementation examples <span class="citation" data-cites="kim2021teacher zawacki2021ai">(<a href="references.html#ref-kim2021teacher" role="doc-biblioref">Kim, Lee, and Cho 2021</a>; <a href="references.html#ref-zawacki2021ai" role="doc-biblioref">Zawacki-Richter, Bond, and Marín 2021</a>)</span>.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-teacher-ai-strengths" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-teacher-ai-strengths-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-teacher-ai-strengths">graph LR
+    A[Educational Excellence] --&gt; B[Human Teacher Strengths]
+    A --&gt; C[AI System Strengths]
+    
+    B --&gt; B1[Emotional Intelligence&lt;br/&gt;Empathy &amp; Motivation&lt;br/&gt;Relationship Building]
+    B --&gt; B2[Contextual Judgment&lt;br/&gt;Ethical Reasoning&lt;br/&gt;Cultural Sensitivity]
+    B --&gt; B3[Creativity &amp; Inspiration&lt;br/&gt;Role Modeling&lt;br/&gt;Mentorship]
+    B --&gt; B4[Adaptability&lt;br/&gt;Real-time Pivoting&lt;br/&gt;Improvisation]
+    
+    C --&gt; C1[Data Processing&lt;br/&gt;Pattern Recognition&lt;br/&gt;Predictive Analytics]
+    C --&gt; C2[Consistency&lt;br/&gt;24/7 Availability&lt;br/&gt;Scalability]
+    C --&gt; C3[Personalization&lt;br/&gt;Adaptive Content&lt;br/&gt;Individual Pacing]
+    C --&gt; C4[Routine Automation&lt;br/&gt;Grading &amp; Admin&lt;br/&gt;Resource Management]
+    
+    B1 --&gt; D[Optimal Learning&lt;br/&gt;Experience]
+    B2 --&gt; D
+    B3 --&gt; D
+    B4 --&gt; D
+    C1 --&gt; D
+    C2 --&gt; D
+    C3 --&gt; D
+    C4 --&gt; D
+    
+    style A fill:#9C27B0
+    style B fill:#FF9800
+    style C fill:#2196F3
+    style D fill:#4CAF50
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-teacher-ai-strengths-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5.1: Complementary Strengths of Human Teachers and AI Systems
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Research consistently shows that hybrid models—combining AI capabilities with human expertise—outperform either purely human or fully automated approaches <span class="citation" data-cites="vanlehn2011intelligent holstein2019explaining kim2021teacher">(<a href="references.html#ref-vanlehn2011intelligent" role="doc-biblioref">VanLehn 2011</a>; <a href="references.html#ref-holstein2019explaining" role="doc-biblioref">Holstein, McLaren, and Aleven 2019</a>; <a href="references.html#ref-kim2021teacher" role="doc-biblioref">Kim, Lee, and Cho 2021</a>)</span>.</p>
 </section>
 <section id="understanding-teacher-ai-collaboration" class="level2" data-number="5.2">
 <h2 data-number="5.2" class="anchored" data-anchor-id="understanding-teacher-ai-collaboration"><span class="header-section-number">5.2</span> Understanding Teacher-AI Collaboration</h2>
@@ -355,6 +424,35 @@ ul.task-list li input[type="checkbox"] {
 <p>Teacher-AI collaboration represents the future of education—not as a replacement of human educators, but as an enhancement of human potential. Success rests on mutual respect, thoughtful integration, continuous learning, ethical grounding, and a shared vision for student flourishing. Technology should amplify the teacher’s craft, not overshadow it. When human insight and AI capability align, classrooms become more responsive, equitable, and inspiring, unlocking potential at a scale that neither could achieve alone.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-dufour2015professional" class="csl-entry" role="listitem">
+Dufour, Richard, and Rebecca Dufour. 2015. <span>“Professional Learning Communities at Work: Best Practices for Enhancing Student Achievement.”</span>
+</div>
+<div id="ref-fullan2016coherence" class="csl-entry" role="listitem">
+Fullan, Michael, and Joanne Quinn. 2016. <span>“Coherence: The Right Drivers in Action for Schools, Districts, and Systems.”</span>
+</div>
+<div id="ref-hargreaves2017uplifting" class="csl-entry" role="listitem">
+Hargreaves, Andy, Alan Boyle, and Alma Harris. 2017. <span>“Uplifting Leadership: How Organizations, Teams, and Communities Raise Performance.”</span>
+</div>
+<div id="ref-holmes2021state" class="csl-entry" role="listitem">
+Holmes, Wayne, and Ilkka Tuomi. 2021. <span>“State of the Art and Practice in AI in Education.”</span> <em>European Journal of Education</em> 56 (4): 551–63.
+</div>
+<div id="ref-holstein2019explaining" class="csl-entry" role="listitem">
+Holstein, Kenneth, Bruce M McLaren, and Vincent Aleven. 2019. <span>“Explaining the Explainable: AI for Teaching and Learning.”</span> <em>International Journal of Artificial Intelligence in Education</em> 29 (2): 210–41.
+</div>
+<div id="ref-kim2021teacher" class="csl-entry" role="listitem">
+Kim, Jiyoung, Hyeoncheol Lee, and Young Hoan Cho. 2021. <span>“Teacher Perspectives on AI in Education: A Systematic Review.”</span> <em>Computers &amp; Education</em> 169: 104207.
+</div>
+<div id="ref-park2021ethical" class="csl-entry" role="listitem">
+Park, Yeonjeong, and Hyeoncheol Lee. 2021. <span>“Ethical Considerations in AI Education: A Framework for Responsible Implementation.”</span> <em>Educational Technology Research and Development</em> 69 (3): 1639–59.
+</div>
+<div id="ref-vanlehn2011intelligent" class="csl-entry" role="listitem">
+VanLehn, Kurt. 2011. <em>The Relative Effectiveness of Human Tutoring, Intelligent Tutoring Systems, and Other Tutoring Systems</em>. <em>Educational Psychologist</em>. Vol. 46. 4. Taylor &amp; Francis.
+</div>
+<div id="ref-zawacki2021ai" class="csl-entry" role="listitem">
+Zawacki-Richter, Olaf, Melissa Bond, and Victoria I Marín. 2021. <span>“AI in Education: Opportunities and Challenges for Teaching and Learning.”</span> <em>Computers in Human Behavior Reports</em> 4: 100101.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
