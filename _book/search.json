@@ -1,5 +1,55 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AI in Education: Transforming Learning in the Digital Age",
+    "section": "",
+    "text": "Preface\nEducation stands at the threshold of a technological revolution. Artificial Intelligence (AI), once confined to science fiction and research laboratories, is now reshaping how we learn, teach, and think about knowledge itself. This book explores the transformative potential of AI in education, examining both its remarkable opportunities and the critical challenges that accompany this evolution.\nAs we navigate this digital transformation, we find ourselves asking fundamental questions: How will AI change the role of teachers? What does personalized learning really mean in an AI-augmented classroom? How do we ensure that technological advancement serves equity and inclusion rather than exacerbating existing divides?",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#why-this-book-matters-now",
+    "href": "index.html#why-this-book-matters-now",
+    "title": "AI in Education: Transforming Learning in the Digital Age",
+    "section": "Why This Book Matters Now",
+    "text": "Why This Book Matters Now\nThe integration of AI into education is not a distant possibility—it’s already happening. From intelligent tutoring systems that adapt to individual learning styles to automated grading tools that provide instant feedback, AI is becoming an integral part of the educational landscape. Yet, this rapid adoption has outpaced our understanding of its implications.\nThis book serves as both a guide and a critical examination of AI’s role in education. It is written for educators, policymakers, students, parents, and technologists who recognize that the decisions we make today will shape the future of learning for generations to come.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#what-youll-find-in-these-pages",
+    "href": "index.html#what-youll-find-in-these-pages",
+    "title": "AI in Education: Transforming Learning in the Digital Age",
+    "section": "What You’ll Find in These Pages",
+    "text": "What You’ll Find in These Pages\nWe’ll explore the current state of AI across classrooms and institutions, tracing how policy choices, market forces, and research breakthroughs are rewriting daily practice. We will dive deeply into personalized learning to examine the promise—and the real-world reality—of AI-driven individualisation. Along the way, we consider how teachers collaborate with AI systems, detailing the craft of weaving human judgment with algorithmic insight. We devote substantial attention to ethical considerations, especially the intertwined issues of privacy, bias, and equity. Finally, we scan the horizon to understand the trends that will shape the next generation of learners and educators.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#a-personal-journey",
+    "href": "index.html#a-personal-journey",
+    "title": "AI in Education: Transforming Learning in the Digital Age",
+    "section": "A Personal Journey",
+    "text": "A Personal Journey\nMy journey into AI and education began over a decade ago when I first encountered the potential of machine learning to identify student learning patterns. What started as curiosity about data analytics in education has evolved into a deep commitment to understanding how AI can serve, rather than replace, human teaching and learning.\nThis book reflects countless conversations with teachers who are excited about AI’s possibilities while grappling with its challenges, students who are experiencing AI-augmented learning for the first time, and administrators working to implement these technologies responsibly.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#looking-ahead",
+    "href": "index.html#looking-ahead",
+    "title": "AI in Education: Transforming Learning in the Digital Age",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nAs we embark on this exploration together, I invite you to approach these topics with both optimism and critical thinking. The future of education will be shaped not just by technological capabilities, but by the values, policies, and human decisions that guide their implementation.\nThe AI revolution in education is not inevitable—it’s a path we choose together. This book aims to illuminate that path and help us navigate it wisely.\n\nTo my students, colleagues, and all those who believe in the transformative power of education—may this book contribute to a future where technology serves humanity’s noblest pursuit: the quest for knowledge and understanding.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
     "objectID": "intro.html",
     "href": "intro.html",
     "title": "1  The AI Education Revolution: An Introduction",
@@ -987,56 +1037,6 @@
     "text": "AI Munch. 2025. “AI in Education: 14 Uses, 8 Cons, and\nChallenges.” 2025. https://www.aimunch.com/ai-in-education-pros-and-cons-of-artificial-intelligence-in-classroom/.\n\n\nArka Softwares. 2025. “AI in Education — Applications, Benefits,\nand Challenges.” 2025. https://www.arkasoftwares.com/blog/ai-in-education-applications-benefits-and-challenges/.\n\n\nAssociation, American Educational Research, American Psychological\nAssociation, and National Council on Measurement in Education. 2014.\n“Standards for Educational and Psychological Testing.”\n\n\nBaker, Ryan S J D, and Kalina Yacef. 2008. “Data Mining for\nEducation.” International Handbook of Information\nTechnologies in Primary and Secondary Education, 187–202.\n\n\nBaker, Ryan S. 2019. “Using Educational Data Mining and Learning\nAnalytics to Understand and Improve Digital Learning.”\nEducational Psychologist 54 (4): 261–74.\n\n\nBaker, Ryan S, and Paul Salvador Inventado. 2020. “Educational\nData Mining and Learning Analytics.” The Handbook of\nEducational Psychology, 1–27.\n\n\nBlanchard, Emmanuel G, and Claude Frasson. 2016. “Affective\nComputing and Intelligent Interaction.” Computers in Human\nBehavior 59: 350–59.\n\n\nBlumenstein, Michael, Xiubo Liu, and Dan Richards. 2021. “Deep\nLearning for Student Modeling in Intelligent Tutoring Systems.”\nNeural Computing and Applications 33 (15): 9225–39.\n\n\nBulathwela, Sahan, Maria Perez-Ortiz, Emine Yilmaz, and John\nShawe-Taylor. 2020. “Thinking Fast and Slow: Data-Driven Learning\nof Novice, Intermediate, and Expert Level Knowledge.”\nProceedings of the 21st International Conference on Artificial\nIntelligence in Education, 51–63.\n\n\nChen, Bodong, and Bin Wei. 2020. “Ethical Considerations of\nArtificial Intelligence in Educational Assessment.” British\nJournal of Educational Technology 51 (6): 2204–18.\n\n\nChen, Li, Guangzhi Zheng, and Ming Liu. 2021. “Privacy in\nAI-Powered Education: A Systematic Review.” Computers in\nHuman Behavior 125: 106942.\n\n\nClassPoint. 2025. “A Guide to Navigate the Challenges of Using AI\nin Education.” 2025. https://www.classpoint.io/blog/challenges-of-using-ai-in-education.\n\n\nCommission, European. 2021. “Proposal for a Regulation of the\nEuropean Parliament and of the Council Laying down Harmonised Rules on\nArtificial Intelligence (Artificial Intelligence Act).”\n\n\nCompilatio. 2025. “AI in Education: Opportunities and Challenges\nin 2025.” 2025. https://www.compilatio.net/en/blog/ai-in-education.\n\n\nConati, Cristina, Natasha Jaques, and Rosalind W Picard. 2018.\n“Multimodal Student Modeling for Personalized Learning.”\nUser Modeling and User-Adapted Interaction 28 (2): 123–65.\n\n\nConati, Cristina, and Samad Kardan. 2021. “Student Modeling:\nSupporting Personalized Instruction, from Problem Solving to Exploratory\nOpen-Ended Activities.” AI Magazine 42 (2): 33–48.\n\n\nDignath, Charlotte, Gerhard Buettner, and Hans-Peter Langfeldt. 2020.\n“Assessment of Metacognition in Mathematics Education.”\nZDM Mathematics Education 52 (2): 291–304.\n\n\nDufour, Richard, and Rebecca Dufour. 2015. “Professional Learning\nCommunities at Work: Best Practices for Enhancing Student\nAchievement.”\n\n\nDuolingo. 2021. “Duolingo English Test: Technical Manual.”\n\n\nForward Pathway. 2025. “The Application and Challenges of AI in\nEducation.” 2025. https://www.forwardpathway.us/the-application-and-challenges-of-ai-in-education.\n\n\nFullan, Michael, and Joanne Quinn. 2016. “Coherence: The Right\nDrivers in Action for Schools, Districts, and Systems.”\n\n\nGoel, Ashok K, and Lalith Polepeddi. 2021. “Meta-Learning for\nStudent Modeling.” Proceedings of the AAAI Conference on\nArtificial Intelligence 35 (6): 5595–5603.\n\n\nHargreaves, Andy, Alan Boyle, and Alma Harris. 2017. “Uplifting\nLeadership: How Organizations, Teams, and Communities Raise\nPerformance.”\n\n\nHolmes, Wayne, Maya Bialik, and Charles Fadel. 2019. “Artificial\nIntelligence in Education: Promises and Implications for Teaching and\nLearning.”\n\n\nHolmes, Wayne, and Ilkka Tuomi. 2021. “State of the Art and\nPractice in AI in Education.” European Journal of\nEducation 56 (4): 551–63.\n\n\nHolstein, Kenneth, Bruce M McLaren, and Vincent Aleven. 2019.\n“Explaining the Explainable: AI for Teaching and Learning.”\nInternational Journal of Artificial Intelligence in Education\n29 (2): 210–41.\n\n\nKhan, Salman. 2020. “The Khan Academy Model of Education.”\nInternational Journal of Information and Education Technology\n10 (5): 340–45.\n\n\nKim, Jiyoung, Hyeoncheol Lee, and Young Hoan Cho. 2021. “Teacher\nPerspectives on AI in Education: A Systematic Review.”\nComputers & Education 169: 104207.\n\n\nKoedinger, Kenneth R, Albert T Corbett, and Charles Perfetti. 2015.\n“The Carnegie Learning Cognitive Tutor: Lessons Learned from\nResearch and Practice.” Journal of Applied Developmental\nPsychology 40: 31–48.\n\n\nLi, Xiaoming, Yu Wang, and Xiaoqing Zhang. 2021. “Personalized\nLearning in Primary Education: A Review of Research.” British\nJournal of Educational Technology 52 (5): 1984–2005.\n\n\nLiu, Ming, Xiaoming Li, and Guangzhi Zheng. 2021. “Bias in\nEducational AI Systems: Sources, Detection, and Mitigation.”\nJournal of Educational Computing Research 59 (7): 1349–71.\n\n\nLuckin, Rose, Wayne Holmes, Mark Griffiths, and Laurie B. Forcier. 2016.\nIntelligence Unleashed: An Argument for AI in Education.\nPearson UK.\n\n\nMitchell, Melanie. 2021. “Abstraction and Analogy‐making in\nArtificial Intelligence.” Annals of the New York Academy of\nSciences 1505 (1): 79–101.\n\n\nO’Connell, Rebecca, and James W Pennebaker. 2020. “Automated Essay\nScoring: A Literature Review.” Assessment in Education:\nPrinciples, Policy & Practice 27 (1): 1–18.\n\n\nOECD. 2021. “AI and the Future of Skills, Volume 1: Capabilities\nand Assessments.”\n\n\nPandey, Shashank, and Sameer Khandelwal. 2021. “A Systematic\nReview of Automated Essay Scoring Systems.” Education and\nInformation Technologies 26 (1): 441–62.\n\n\nPark, Yeonjeong, and Hyeoncheol Lee. 2021. “Ethical Considerations\nin AI Education: A Framework for Responsible Implementation.”\nEducational Technology Research and Development 69 (3):\n1639–59.\n\n\nPingquill Insights. 2025. “AI in Education: Applications,\nChallenges, and Opportunities.” 2025. https://pingquill.com/artificial-intelligence/ai-education-applications-challenges-and-opportunities/.\n\n\nPopenici, Stefan AD, and Sharon Kerr. 2017. “Exploring the Impact\nof Artificial Intelligence on Teaching and Learning in Higher\nEducation.” Research and Practice in Technology Enhanced\nLearning 12 (1): 1–13.\n\n\nPorayska-Pomsta, Kaska, Manolis Mavrikis, and Sidney D’Mello. 2013.\n“AI in Education: Achievements and Challenges.” AI\nMagazine 34 (4): 59–70.\n\n\nRoschelle, Jeremy, Yannis Dimitriadis, and Ulrich Hoppe. 2016.\n“Personalization of Learning: Lessons from Technology and\nPedagogy.” International Journal of Artificial Intelligence\nin Education 26 (2): 583–89.\n\n\nRus, Vasile, Sidney D’Mello, Xiangen Hu, and Arthur Graesser. 2019.\n“AI in Education: A Systematic Literature Review.” IEEE\nTransactions on Learning Technologies 12 (4): 422–37.\n\n\nScience, The White House Office of, and Technology Policy. 2022.\n“Blueprint for an AI Bill of Rights.”\n\n\nSettles, Burr, and Geoffrey T LaFlair. 2020. “Machine\nLearning-Driven Language Learning: The Duolingo Approach.”\nTransactions of the Association for Computational Linguistics\n8: 247–61.\n\n\nSiemens, George, and Ryan S J D Baker. 2012. “Learning Analytics\nand Educational Data Mining: Towards Communication and\nCollaboration.” Proceedings of the 2nd International\nConference on Learning Analytics and Knowledge, 252–54.\n\n\nSong, Donggil, Matthew Rice, and Eun Young Oh. 2021. “Adaptive\nLearning Systems: A Review of Major Platforms and Research.”\nTechTrends 65 (4): 467–79.\n\n\nStructural Learning. 2025. “AI in Modern Education: Challenges and\nOpportunities.” 2025. https://www.structural-learning.com/post/ai-in-modern-education-challenges-and-opportunities.\n\n\nThe ASU. 2025. “Exploring the Challenges and Boundaries of\nArtificial Intelligence in Education.” 2025. https://theasu.ca/blog/exploring-the-challenges-and-boundaries-of-artificial-intelligence-in-education.\n\n\nUNESCO. 2021. “AI and Education: Guidance for\nPolicy-Makers.”\n\n\nVanLehn, Kurt. 2011. The Relative Effectiveness of Human Tutoring,\nIntelligent Tutoring Systems, and Other Tutoring Systems.\nEducational Psychologist. Vol. 46. 4. Taylor & Francis.\n\n\nVesselinov, Roumen, and John Grego. 2020. “Duolingo Effectiveness\nStudy.” City University of New York.\n\n\nWang, Xiaoqing, Xiaoming Li, and Yu Zhang. 2021. “Global\nPerspectives on AI in Education: A Comparative Analysis.”\nInternational Journal of Artificial Intelligence in Education\n31 (4): 567–90.\n\n\nWang, Zitao, Mingyu Feng, and Jie Xing. 2021. “Knowledge Tracing:\nA Review of Available Technologies and Open Challenges.”\nEducational Technology & Society 24 (1): 1–15.\n\n\nWoo, Chong Woo, Martha W Evens, and Joel A Michael. 2020.\n“Intelligent Tutoring Systems: Past, Present, and Future.”\nHandbook of Research on Educational Communications and\nTechnology, 815–30.\n\n\nZawacki-Richter, Olaf, Melissa Bond, and Victoria I Marín. 2021.\n“AI in Education: Opportunities and Challenges for Teaching and\nLearning.” Computers in Human Behavior Reports 4:\n100101.\n\n\nZhang, Yu, Xiaoqing Wang, and Xiaoming Li. 2021. “Deep Learning\nfor Educational Data Mining.” IEEE Access 9:\n123200–123219.\n\n\nZhu, Xiaolu, Qiong Chen, and Xiaoyang Wang. 2021. “Addressing\nAlgorithmic Bias in Education: A Critical Review of the Field.”\nComputers & Education 165: 104130.",
     "crumbs": [
       "References"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "AI in Education: Transforming Learning in the Digital Age",
-    "section": "",
-    "text": "Preface\nEducation stands at the threshold of a technological revolution. Artificial Intelligence (AI), once confined to science fiction and research laboratories, is now reshaping how we learn, teach, and think about knowledge itself. This book explores the transformative potential of AI in education, examining both its remarkable opportunities and the critical challenges that accompany this evolution.\nAs we navigate this digital transformation, we find ourselves asking fundamental questions: How will AI change the role of teachers? What does personalized learning really mean in an AI-augmented classroom? How do we ensure that technological advancement serves equity and inclusion rather than exacerbating existing divides?",
-    "crumbs": [
-      "Preface"
-    ]
-  },
-  {
-    "objectID": "index.html#why-this-book-matters-now",
-    "href": "index.html#why-this-book-matters-now",
-    "title": "AI in Education: Transforming Learning in the Digital Age",
-    "section": "Why This Book Matters Now",
-    "text": "Why This Book Matters Now\nThe integration of AI into education is not a distant possibility—it’s already happening. From intelligent tutoring systems that adapt to individual learning styles to automated grading tools that provide instant feedback, AI is becoming an integral part of the educational landscape. Yet, this rapid adoption has outpaced our understanding of its implications.\nThis book serves as both a guide and a critical examination of AI’s role in education. It is written for educators, policymakers, students, parents, and technologists who recognize that the decisions we make today will shape the future of learning for generations to come.",
-    "crumbs": [
-      "Preface"
-    ]
-  },
-  {
-    "objectID": "index.html#what-youll-find-in-these-pages",
-    "href": "index.html#what-youll-find-in-these-pages",
-    "title": "AI in Education: Transforming Learning in the Digital Age",
-    "section": "What You’ll Find in These Pages",
-    "text": "What You’ll Find in These Pages\nWe’ll explore the current state of AI across classrooms and institutions, tracing how policy choices, market forces, and research breakthroughs are rewriting daily practice. We will dive deeply into personalized learning to examine the promise—and the real-world reality—of AI-driven individualisation. Along the way, we consider how teachers collaborate with AI systems, detailing the craft of weaving human judgment with algorithmic insight. We devote substantial attention to ethical considerations, especially the intertwined issues of privacy, bias, and equity. Finally, we scan the horizon to understand the trends that will shape the next generation of learners and educators.",
-    "crumbs": [
-      "Preface"
-    ]
-  },
-  {
-    "objectID": "index.html#a-personal-journey",
-    "href": "index.html#a-personal-journey",
-    "title": "AI in Education: Transforming Learning in the Digital Age",
-    "section": "A Personal Journey",
-    "text": "A Personal Journey\nMy journey into AI and education began over a decade ago when I first encountered the potential of machine learning to identify student learning patterns. What started as curiosity about data analytics in education has evolved into a deep commitment to understanding how AI can serve, rather than replace, human teaching and learning.\nThis book reflects countless conversations with teachers who are excited about AI’s possibilities while grappling with its challenges, students who are experiencing AI-augmented learning for the first time, and administrators working to implement these technologies responsibly.",
-    "crumbs": [
-      "Preface"
-    ]
-  },
-  {
-    "objectID": "index.html#looking-ahead",
-    "href": "index.html#looking-ahead",
-    "title": "AI in Education: Transforming Learning in the Digital Age",
-    "section": "Looking Ahead",
-    "text": "Looking Ahead\nAs we embark on this exploration together, I invite you to approach these topics with both optimism and critical thinking. The future of education will be shaped not just by technological capabilities, but by the values, policies, and human decisions that guide their implementation.\nThe AI revolution in education is not inevitable—it’s a path we choose together. This book aims to illuminate that path and help us navigate it wisely.\n\nTo my students, colleagues, and all those who believe in the transformative power of education—may this book contribute to a future where technology serves humanity’s noblest pursuit: the quest for knowledge and understanding.",
-    "crumbs": [
-      "Preface"
     ]
   }
 ]
